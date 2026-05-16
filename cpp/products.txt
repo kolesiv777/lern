@@ -1,0 +1,8 @@
+Milk,Dairy,1.5,10,50
+Bread,Bakery,0.8,5,100
+Yogurt,Dairy,1.2,7,80
+Butter,Dairy,1.8,15,40
+Bread,Bakery,2.9,7,80
+Cheese,Dairy,2.2,20,30
+Milk,Organic,2.1,12,20
+Milk,Skim,1.9,8,60

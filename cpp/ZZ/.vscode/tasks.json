@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build (PDCurses)",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o", "${fileDirname}/${fileBasenameNoExtension}",
+                "-I", "${workspaceFolder}/include",
+                "-L", "${workspaceFolder}/lib",
+                "-l:pdcurses.a", 
+                "-lSDL2"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Сборка змейки с PDCurses"
+        }
+    ]
+}
